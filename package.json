@@ -1,0 +1,23 @@
+{
+  "name": "flashcards",
+  "version": "1.0.0",
+  "description": "flashcards app from TeamTreehouse. Uses express module. Cannot load modules in the google drive folder so have to use the local C drive and thus keep the working version in git and C. and then can clone later to the google drive I suppose.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlee474/express_practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlee474/express_practice/issues"
+  },
+  "homepage": "https://github.com/jlee474/express_practice#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
