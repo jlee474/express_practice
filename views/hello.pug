@@ -1,13 +1,13 @@
-doctype html 
-html(leng="en")
-   head
-      title Flash Cards
-   body 
-      header
-         h1 Flash Cards 
-      section#content 
-         ul 
-            each color in colors
-               li= color
-      footer 
-         p      
+extends layout.pug 
+
+block content 
+
+   section#content 
+      //- the value of the action attribute is the URL that the form posts to... 
+      //- ...in other words, the route that the browser will send form data to.
+      form(action='/hello', method='post')
+         label Please enter your name: 
+
+            //- the name attribute is vital to ensure the app can read the form submission
+            input(type='text', name='username')
+         button(type='submit') Submit
